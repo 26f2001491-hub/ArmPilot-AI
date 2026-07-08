@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node / frontend
+node_modules/
+.next/
+
+# The bare "lib/" rule above (Python packaging) must not swallow the
+# frontend source directory frontend/lib.
+!frontend/lib/
+!frontend/lib/**
